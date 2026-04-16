@@ -1,0 +1,38 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing:border-box;
+
+}
+/*
+margin: 10px; - todos os lados
+margin: 10px 20px; - 10px(cima/baixo) 20px(esquerda/direita)
+margin: 10px 15px 20px 10px; (sentido horário)
+*/
+
+body{
+    background-image:linear-gradient(to left, #555,#FFFFFF)
+}
+
+/*Id (Seleciona um específico) */
+#texto1{
+    color:blue;
+    font-size:40px;
+    font-family:"Arial";
+}
+#texto2{
+    color:red;
+    font-size:50px;
+    font-family:"poppins";
+}
+#texto3{
+    color:green;
+    font-size:45px;
+    font-family:"times new Roman";
+}
+
+/* Class (Algo em comum) */
+.texto{
+    color:purple;
+    font-size: 70px;
+}
